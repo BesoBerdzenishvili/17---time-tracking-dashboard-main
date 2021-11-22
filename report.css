@@ -1,0 +1,54 @@
+.repFg {
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7.5em;
+    border-radius: 0.8em;
+}
+
+.repFg > img {
+    height: 4em;
+    border: 4px solid white;
+    border-radius: 14em;
+}
+
+.repFg > p {
+    margin-right: 1.5em;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.repFg > p > span {
+    color:hsl(236, 100%, 87%);
+    font-size: 16px;
+}
+
+.report {
+    background-color: hsl(235, 46%, 20%);
+    width: 18em;
+    height: 11em;
+    border-radius: 0.8em;
+}
+
+ul {
+    color: hsl(235, 45%, 61%);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+button {
+    border: none;
+    background-color: hsl(235, 46%, 20%);
+    font-weight: 300;
+    font-size: 18px;
+  }
+button:hover {
+    color: white;
+    cursor: pointer;
+  }
+button:focus {
+    color: white;
+  }

@@ -1,0 +1,63 @@
+@media screen and (min-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        'nav main';
+        gap: 1em;
+        padding: 3.5em 0 0 7em;
+    }
+    main {
+        grid-area: main;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 7em;
+    }
+    nav {
+        grid-area: nav;
+    }
+    .bgCards {
+        margin: 0.8em;
+        width: 14em;
+        height: 13em;
+        padding-top: 2.3em;
+    }
+    .cards {
+        height: 10.7em;
+        width: auto;
+    }
+    .cardsLower {
+        display: initial;
+    }
+    .cardsLower > p:first-child {
+        font-size: 50px;
+    }
+    .report {
+        height: 27.7em;
+        width: 14em;
+    }
+    .repFg {
+        height: 18.7em;
+        width: 14em;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2em;
+    }
+    .repFg > p {
+        font-size: 39px;
+    }
+    .repFg > img {
+        width: 4.7em;
+        height: 4.7em;
+    }
+    ul {
+        display: initial;
+    }
+    ul > li {
+        margin: 1.2em 0 0 2em;
+    }
+}
+@media screen and (min-width: 2549px) {
+    body {
+        padding: 2em 35em 0 35em;
+    }
+}

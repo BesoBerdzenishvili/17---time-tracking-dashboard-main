@@ -1,0 +1,92 @@
+
+.cards {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 0.8em;
+    height: 6.7em;
+    width: 18em;
+    padding: 2em;
+    transition: 0.5s;
+}
+.cards:hover {
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    height: 13em;
+    margin-top: -2.3em;
+    padding: 2.5em;
+}
+
+.bgCards {
+    background-color: orange;
+    height: 9em;
+    border-radius: 0.8em;
+    margin: 1.2em 0 1.2em 0;
+    padding-top: 2.3em;
+}
+
+.cardsUpper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.cardsLower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.cardsLower > p:first-child {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.threePoints {
+    font-size: 27px;
+}
+
+/* Background cards style */
+
+.bgPicOne {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: 95% -14%;
+}
+
+.bgPicTwo {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: 95% -3%;
+}
+
+.bgPicThree {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: 95% -7%;
+}
+
+.bgPicFour {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 0%;
+}
+
+.bgPicFive {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: 95% -20%;
+}
+
+.bgPicSix {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: 95% -8%;
+}
