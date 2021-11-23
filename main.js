@@ -13,48 +13,26 @@ const lastStudy = document.querySelector('.lastStudy');
 const lastExercise = document.querySelector('.lastExercise');
 const lastSocial = document.querySelector('.lastSocial');
 const lSelfC = document.querySelector('.lastSelfC');
+
+const activity = [work, play, study, exercise, social, selfC, lastWork, lastPlay, lastStudy, lastExercise, lastSocial, lSelfC];
+const daily = [5,1,0,1,1,0,7,2,1,1,3,1];
+const weekly = [32,1,4,4,5,2,36,8,7,5,10,2];
+const monthly = [103, 23, 19, 11, 21, 7, 128, 29, 18, 23, 11];
 // Daily
 btn1.addEventListener('click', ()=> {
-    work.innerHTML = '5';
-    play.innerHTML = '1';
-    study.innerHTML = '0';
-    exercise.innerHTML = '1';
-    social.innerHTML = '1';
-    selfC.innerHTML = '0';
-    lastWork.innerHTML = '7';
-    lastPlay.innerHTML = '2';
-    lastStudy.innerHTML = '1';
-    lastExercise.innerHTML = '1';
-    lastSocial.innerHTML = '3';
-    lSelfC.innerHTML = '1';
+    for (let i = 0; i < activity.length; i++) {
+            activity[i].innerHTML = daily[i];
+        }
 });
 // Weekly
 btn2.addEventListener('click', ()=> {
-    work.innerHTML = '32';
-    play.innerHTML = '1';
-    study.innerHTML = '4';
-    exercise.innerHTML = '4';
-    social.innerHTML = '5';
-    selfC.innerHTML = '2';
-    lastWork.innerHTML = '36';
-    lastPlay.innerHTML = '8';
-    lastStudy.innerHTML = '7';
-    lastExercise.innerHTML = '5';
-    lastSocial.innerHTML = '10';
-    lSelfC.innerHTML = '2';
+    for (let i = 0; i < activity.length; i++) {
+        activity[i].innerHTML = weekly[i];
+    }
 });
 // Monthly
 btn3.addEventListener('click', ()=> {
-    work.innerHTML = '103';
-    play.innerHTML = '23';
-    study.innerHTML = '19';
-    exercise.innerHTML = '11';
-    social.innerHTML = '21';
-    selfC.innerHTML = '7';
-    lastWork.innerHTML = '128';
-    lastPlay.innerHTML = '29';
-    lastStudy.innerHTML = '19';
-    lastExercise.innerHTML = '18';
-    lastSocial.innerHTML = '23';
-    lSelfC.innerHTML = '11';
+    for (let i = 0; i < activity.length; i++) {
+        activity[i].innerHTML = monthly[i];
+    }
 });
